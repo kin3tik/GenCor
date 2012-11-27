@@ -3,6 +3,9 @@ GenCor
 
 ##About
 
+Using a text corpus' (Jane Austen novels) vocabulary and probability distribution model, will either generate or
+correct sentences.
+
 ###Generating Text Using a Markov Model
 
 Generates sentences using the trigram model. In this model, each  Xt is a discrete random variable 
