@@ -23,12 +23,12 @@ as the *.jar.
 
 ###Sentence Generation
 
-Use the `-g` flag.
+Use the `-g` flag.<br />
 `java -jar gencor.jar -g`
 
 ###Sentence Correction
 
-Use the `-c` flag.
+Use the `-c` flag.<br />
 `java -jar gencor.jar -c misspelled sentence to correct`
 
 ###Example Output
@@ -46,19 +46,17 @@ Sentence correction:
   * `<s> She was already quite like`
 * "he said nit word by"
   * `<s> He said it would be`
-* "John Knightly wasn’t hard at work"
-  * `<s> John Knightley was hard at work`
 
 ##Format
 
 The format for these files is as follows.  vocab.txt contains the vocabulary, one word per line:
 
-1 word1
-2 word2
-...
-n wordn
+1 word1<br />
+2 word2<br />
+...<br />
+n wordn<br />
 
-There are two special words in the vocabulary. The words  <s> and  </s> denote the beginning and 
+There are two special words in the vocabulary. The words  `<s>` and  `</s>` denote the beginning and 
 the end of a sentence, respectively.
 
 The files `*gram-counts.txt` contain a 3-gram probability model, with one conditional 
